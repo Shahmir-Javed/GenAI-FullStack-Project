@@ -1,7 +1,6 @@
 import User from "../models/user.model.js";
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
-import { set } from "mongoose";
 
 
 async function userRegister(req, res) {
